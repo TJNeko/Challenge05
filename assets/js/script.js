@@ -62,8 +62,7 @@ function handleAddTask(event){
 };
 
 // save to local storage
-    taskList.push(task);
-    localStorage.setItem('tasks', JSON.stringify(taskList));
+
 
 // create task card
     let lane = $('#todo-cards');
